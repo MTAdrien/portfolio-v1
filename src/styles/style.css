@@ -156,7 +156,31 @@ body {
     border-radius: var(--radius);
     padding: 25px;
 }
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
+    background: rgba(255,255,255,0.08);
+
+    padding: 10px 16px;
+    border-radius: 999px;
+
+    width: fit-content;
+
+    transition: 0.3s ease;
+}
+
+.badge img {
+    width: 22px;
+    height: 22px;
+}
+
+.badge:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 0 15px rgba(34,211,238,0.15);
+}
 .badges,
 .project-stack {
     display: flex;
