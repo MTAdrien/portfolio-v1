@@ -34,7 +34,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #3b82f6;
+    background: #ffffff;
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .logo {
-    color: var(--accent-gold);
+    color: var(--background-dark);
 }
 
 .nav-links {
@@ -57,13 +57,13 @@ body {
 }
 
 .nav-links a {
-    color: var(--text-light);
+    color: var(--background-dark);
     text-decoration: none;
     transition: var(--transition);
 }
 
 .nav-links a:hover {
-    color: var(--accent-gold);
+    color: var(--accent-blue);
 }
 
 .hero {
@@ -80,7 +80,7 @@ body {
 }
 
 .hero-subtitle {
-    color: var(--accent-gold);
+    color: var(--accent-light);
     margin-bottom: 15px;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 .project-links a {
-    color: var(--accent-gold);
+    color: var(--accent-light);
     text-decoration: none;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .contact-links a {
-    color: var(--accent-gold);
+    color: var(--accent-light);
     text-decoration: none;
 }
 
